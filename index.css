@@ -1,0 +1,67 @@
+/* GENERAL SETUP */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    background: linear-gradient(130deg, rgb(65, 7, 80) 0%, rgb(16, 15, 92) 50%, rgba(89, 232, 247, 1) 100%);
+}
+body {
+    width: 100vw;
+    margin: 0 auto;
+    height: 100vh;
+}
+/* TYPOGRPAPHY */
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+h1 {
+    font-size: 4rem;
+    text-align: end-left;
+    /* horizontal shadow, vertical shadow, blur radius, color */
+    text-shadow: white;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 3rem;
+}
+p, li {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* HEADER LAYOUT */
+header {
+    margin-bottom: 0auto;
+}
+main, header, nav, article, aside, footer, section {
+    background-color: rgb(65, 7, 80) 0, rgb(16, 15, 92) 0;
+    padding: 1%;
+}
+nav {
+    height: 5px;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+/* MAIN LAYOUT */
+main {
+    display: position;
+}
+section, article {
+    flex: none;
+   
+footer {
+    margin-top: 10px;
+}
+
