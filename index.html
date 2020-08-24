@@ -1,61 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 
+</html>
+
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Layout</title>
+
+    <title>Static Layout: KAST</title>
     <link ref="text/css" rel="stylesheet" href="index.css" />
+
 </head>
-<body>
+
+<body id="page-top" data-spy="scroll" data-target=".nav-bar-fixed-top">
+
     <header>
+        <div id="Header">
+            <a href="#top" class="navbar-brand logo-container" id="scroll-top">
+                <img src="./assets/kast-logo-horizontal-color-white.svg" alt="kast-logo"
+                    class="logo-img logo-white-text">
+            </a>
+
+            <nav class="navbar navbar-expand-lg desktop-menu">
+                <div class="collapse navbar-collapse" id="navbarSupportContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class=h ref="#" id="navbarDropdown" role="button">About<i
+                                    class="fas fa-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class=h ref="#" id="navbarDropdown" role="button">Help<i
+                                    class="fas fa-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class=h ref="#" id="navbarDropdown" role="button">Community<i
+                                    class="fas fa-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class=h ref="#" id="navbarDropdown" role="button">Premium<i
+                                    class="fas fa-chevron-down"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a href="https://w.kast.live" target="_blank" class="download-header try-web-lite white">Open Kast</a>
+        </header>
         
-        <h1>KAST</h1>
-            <img src="assets/kast-logo.svg" alt="Kast">
+        <div class="menu-button" id="menu-button" tabindex="0">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </div>    
 
-            
-        <nav>
-            <ul>
-                <li>About</li>
-                <li>Help</li>
-                <li>Community</li>
-                <li>Premium</li>
-            </ul> 
-        </nav>
-        <div class="homepage-content"</div>
-            <img src="assets/front picture.png" alt="Watch Party">
-               
-    </header>
-    <section>
-        <h2>Watch parties made easy.</h2>
-        <main>
-            <article>
-                <p>Share movies, TV shows, and whatever you want with friends online. Join millions of kasters today!
-        <h3>OPEN KAST</h3>        
-                   
-            </article>
-            <aside>
-                <h2>Featured in<input type="button" value=""></h2>
-                <a href="./assets/wired.svg"><img src="./assets/wired.svg" alt="Love is not Dying - Jeremy Zucker" /></a>
-                <a href=". /assets/nerdist.svg"><img src="./assets/nerdist.svg" alt="Love is not Dying - Jeremy Zucker" /></a>
-                <a href=". /assets/yahoo-finance-logo.svg"><img src="./assets/yahoo-finance-logo.svg" alt="Love is not Dying - Jeremy Zucker" /></a>
-                <a href=". /assets/evening-standard-logo"><img src="./assets/evening-standard-logo.svg" alt="Love is not Dying - Jeremy Zucker" /></a>
-                <a href=". /assets/bbc-logo.svg"><img src="./assets/bbc-logo.svg" alt="Love is not Dying - Jeremy Zucker" /></a>
-                <a href=". /assets/daily-mail-logo.svg"><img src="./assets/daily-mail-logo.svg" alt="Love is not Dying - Jeremy Zucker" /></a>
+        <div class="homepage-content" </div>
+            <div class="main-container">
+            <img src="assets/front picture.png" alt="Watch Party" width=800 height=500">
 
-            <article>
-                <p>"Kast has probably never been more relevant-or necessary-than it is rigth now."
-                    <class id="-Yahoo Finance">                                            
-                
-                </p>
-            </article>               
-                
-            </aside>
-        </main>
-    </section>
-    <footer>
-        <p></p>
-    </footer>
+            <section class="watchpartiesmadeeasy">
+                <h1>Watch parties made easy.</h1>
+                <h2>
+
+                    <p>Share movies, TV shows, and whatever you want with</p>
+                    <p>friends online. Join millions of kasters today!</p>
+                </h2>
+                <div class="btn-container desktop-only">
+                    <a href="https://w.kast.live" target="_blank" class="button big try-web-lite">OPEN KAST</a>
+                </div>
+
+                <section class="publications">
+                    <div class="publications-container">
+                        <div class="featuredtext"
+                        <h2>Featured In</h2>
+                        <div class="publications-grid">
+                            <a href="./assets/wired.svg"><img src="./assets/wired.svg" alt="wired" /></a>
+                            <a href=". /assets/nerdist.svg"><img src="./assets/nerdist.svg" alt="nerdist" /></a>
+                            <a href=". /assets/yahoo-finance-logo.svg"><img src="./assets/yahoo-finance-logo.svg"
+                                    alt="yahoo-finance-logo" /></a>
+
+                            <a href=". /assets/evening-standard-logo"><img src="./assets/evening-standard-logo.svg"
+                                    alt="evening-standard-logo" /></a>
+                            <a href=". /assets/bbc-logo.svg"><img src="./assets/bbc-logo.svg" alt="bbc-logo" /></a>
+                            <a href=". /assets/daily-mail-logo.svg"><img src="./assets/daily-mail-logo.svg"
+                                    alt="daily-mail-logo" /></a>
+                        </div>
+                        
+
+                        <div class="quote">
+                            <q class="">Kast has probably never been more relevant-or necessary-than it is rigth now</q>
+                                
+                                <p class="quote-">Yahoo Finance</p>
+                        </div>
+                </section>
+
+
+                <section class="section what-is-kast" id="what-is-kast">
+                    <div class="section main-container">
+                        <div class="text">
+                            <h1>What is Kast</h1>
+                            <h3>Looking for a place to watch movies, play, and hang out with friends? Hop onto
+                                Kast and start sharing experiences real-time</h3>
+                            <h3>Up to 20 people can share their screen or camera and another 100 can watch</h3>
+                        </div>
+                        <div class="btn-container desktop-only">
+                            <a href="https://w.kast.live" target="_blank" class="button big try-web-lite">OPEN
+                                KAST</a>
+                        </div>
+
+                </section>
+
+
+
 </body>
+
 </html>

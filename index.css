@@ -2,66 +2,249 @@
 html, body {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
-html {
-    font-size: 10px;
-    background: linear-gradient(130deg, rgb(65, 7, 80) 0%, rgb(16, 15, 92) 50%, rgba(89, 232, 247, 1) 100%);
-}
+
+
 body {
     width: 100vw;
     margin: 0 auto;
     height: 100vh;
-}
-/* TYPOGRPAPHY */
-h1, h2 {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-}
-h1 {
-    font-size: 4rem;
-    text-align: end-left;
-    /* horizontal shadow, vertical shadow, blur radius, color */
-    text-shadow: white;
-    text-transform: uppercase;
-}
-h2 {
-    font-size: 3rem;
-}
-p, li {
     font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 3rem;
-    line-height: 1.5;
 }
-/* HEADER LAYOUT */
+
+/* TYPOGRPAPHY */
+
 header {
-    margin-bottom: 0auto;
+    overflow:auto;
+    clear: both;
+    background-image: url(./assets/gradient-violet-bg.jpg);
+   }
+
+
+h1 {
+    font-size: 40px;    
 }
-main, header, nav, article, aside, footer, section {
-    background-color: rgb(65, 7, 80) 0, rgb(16, 15, 92) 0;
-    padding: 1%;
+
+h2 {
+    font-size: 30px;
 }
+
+/*NAVBAR*/
+
 nav {
-    height: 5px;
+    float: right;
+    padding-right: 20px;
 }
-nav ul {
-    display: flex;
+
+kast-logo img {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 1;
 }
-nav li {
+
+.logo-img {
+    height: 200px;
+    width: 200px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
     list-style-type: none;
-    text-align: center;
-    flex: 1;
-    font-size: 2rem;
+    text-align: right;
+    flex-direction: row;
+    
+}
+
+/*dropdown menu {
+    position: absolute;
+    float: none;
+    display: block;
+    text-align: left;
+    list-style: none;
+    background-color: grey;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}*/
+
+
+.openkastup {
+    border: solid;
+    border-width: .25;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 14;
     text-transform: uppercase;
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .OpenKastCenter {
+    border: solid;
+    border-width: .25;
+    padding: 4px 6px;
+    margin: 4px 2px;
+    font-size: 14;
+    text-transform: uppercase;
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    display: inline-block;
+  }
+  .openKastButton {
+    border: solid;
+    border-width: .25;
+    padding: 4px 6px;
+    margin: 4px 2px;
+    font-size: ;
+    text-transform: uppercase;
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    display: inline-block;
+  }
+  .main-container{
+    background-image: url(./assets/gradient-violet-bg.jpg);
+    text-align: center;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: auto;
 }
-/* MAIN LAYOUT */
-main {
-    display: position;
+
+/* BODY*/
+
+.homepage-content {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding-top: 50px;
 }
-section, article {
-    flex: none;
-   
-footer {
-    margin-top: 10px;
+
+.h1 {
+    display: block;
+    text-align: center;
+    color: white;
 }
+
+.watchpartiesmadeeasy {
+    background-color: #531F62;
+    background-image: url("/assets/pages/home/gradient-violet-bg.jpg");
+    background-size: cover;
+    padding-top: 83px;
+    padding-bottom: 60px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+.watchpartiesmadeeasy {
+    margin: 30px auto 0;
+     color: #ffffff;
+}
+
+.watchpartiesmadeeasy h3 {
+    margin: 0 auto 30px;
+    max-width: 500px;
+}
+
+.watchpartiesmadeeasy h2 {
+    margin-bottom: 25px;
+}
+
+.watchpartiesmadeeasy img {
+    position: relative;
+    z-index: 2;
+    width: auto;
+    max-width: 100%; 
+    max-height: calc(100vh - 83px - 30px - 260px - 60px);
+} 
+
+.publications {
+    background: white;
+}
+    
+.publications-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 200px;
+    grid-row-gap: 80px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    border-radius: 90px;
+    max-width: 880px;
+    margin: 0 auto 60px;
+} 
+
+.FeaturedIn {
+    display: block;
+    text-align: center;
+    background: white;
+    padding-top: 60px;
+    color: #414854;
+}
+
+.featuredtext {
+    color: black;
+}
+
+.quote {
+    /* max-width: 280px; */
+}
+
+.quote q {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    color: #414854;
+    display: block;
+    scroll-padding-bottom: 1px;
+}
+ 
+.quote- {
+    font-size: 20px;
+}
+
+.what-is-kast {
+    background-image: url("/assets/pages/home/green-bg.jpg");
+    background-size: cover;    
+  }
+
+  .what-is-kast h1 {
+    margin-bottom: 60px;
+  }
+
+  .what-is-kast .text {
+    max-width: 640px;
+    margin: 0 auto 60px;
+  }
+
+.section.main-container {
+    background-image: url("./assets/green-bg.jpg");
+    background-size: cover;
+}
+
+
+
+  .maincontainer {
+      background-image: url("./assets/gradient-violet-bg.jpg");
+      text-align: center;
+      width: 100vw;
+      min-height: 100vh;
+      z-index: auto;
+  }
+
+
+
 
